@@ -34,43 +34,45 @@ article {
   max-width: 70rem;
 }
 
-p {
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 400;
-  font-size: 1.25rem;
+p, h1 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #313133;
+  margin-bottom: 1rem;
+}
+
+p, h1 {
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #313133;
   line-height: 1.5;
-}
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-a {
-  color: #313133;
-  text-decoration: none;
+  text-align: center;
 }
 
 header {
   min-height: 8rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 footer {
-  min-height: 4rem;
+  min-height: 6rem;
   margin-top: auto;
 }
 
 #logo {
-  width: 16rem;
+  width: 14rem;
 }
 
-footer p {
+footer p, a {
   color: #929499;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 @media only screen and (max-width : 600px) {
