@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 
 body {
-  background: #dadee5;
+  background: #e7eaf2;
   max-width: 38rem;
   margin: auto;
   padding: 0 2rem;
@@ -30,12 +30,11 @@ body {
 }
 
 article {
-  margin: 6rem 0;
+  margin: 8rem 0;
   max-width: 70rem;
 }
 
-p, h1 {
-  font-weight: 500;
+p {
   font-size: 1rem;
 }
 
@@ -48,6 +47,7 @@ h1 {
 
 p, h1 {
   font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 500;
   color: #313133;
   line-height: 1.5;
   text-align: center;
@@ -66,7 +66,7 @@ footer {
 }
 
 #logo {
-  width: 14rem;
+  width: 20rem;
 }
 
 footer p, a {
