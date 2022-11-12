@@ -24,24 +24,20 @@ html {
 }
 
 body {
+  font-size: 16px;
   max-width: 32rem;
   margin: auto;
   padding: 0 2rem;
-  display: flex; 
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
 }
 
 article {
   background-color: rgba(255,255,255,.85);
-  display: flex; 
-  flex-direction: column;
-  padding: 2rem;
+  padding: 2rem 1rem;
+  margin: 8rem 0;
 }
 
 p {
-  font-size: .9rem;
+  font-size: 14px;
 }
 
 h1 {
@@ -70,12 +66,34 @@ footer {
   margin-top: 4rem;
 }
 
-#logo {
-  max-width: 20rem;
-}
-
 footer p, a {
   color: #929499;
-  font-size: 0.8rem;
+  font-size: 12px;
   text-decoration: none;
+}
+
+#logo {
+  width: 18rem;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 12px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  header {
+    margin-bottom: 3rem;
+  }
+
+  footer {
+    margin-top: 3rem;
+  }
+
+  #logo {
+    width: 13rem;
+  }
 }
