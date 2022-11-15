@@ -31,7 +31,7 @@ body {
 }
 
 article {
-  background-color: rgba(255,255,255,.85);
+  background-color: rgba(197,220,227,.75);
   padding: 2rem 1rem;
   margin: 8rem 0;
 }
@@ -67,7 +67,7 @@ footer {
 }
 
 footer p, a {
-  color: #929499;
+  color: #616266;
   font-size: 12px;
   text-decoration: none;
 }
