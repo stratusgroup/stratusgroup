@@ -11,6 +11,6 @@ Stratus Group is a network of capital market professionals across the European, 
 
 <footer>
 	<p>Stratus Group AG, Bellerivestrasse 67, 8008 Zürich, Schweiz</p>
-	<p>Telefon: +41 43 501 14 90 — Email: contact@stratusgroup.ch</p>
-	<p>Copyright © 2024 Stratus Group AG. All rights reserved.</p>
+	<p>Email: contact@stratusgroup.ch</p>
+	<p>Copyright © 2025 Stratus Group AG. All rights reserved.</p>
 </footer>
